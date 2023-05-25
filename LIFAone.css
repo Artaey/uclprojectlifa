@@ -1,0 +1,266 @@
+* {
+  margin: 0px;
+  font-family: roboto, sans-serif;
+  color: #003366;
+}
+
+p {
+  font-size: large;
+  padding: 20px;
+}
+
+h2 {
+  font-size: xx-large;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+.logo {
+  height: 50px;
+  width: calc(100% - 40px);
+  text-align: center;
+  margin-bottom: -90px;
+}
+.logo img {
+  height: 100%;
+}
+
+.pad {
+  padding: 20px;
+}
+
+.notop {
+  padding-top: 0px !important;
+}
+
+.moretop {
+  padding-top: 40px !important;
+}
+
+.dark {
+  background-color: #003366;
+}
+.dark h2 {
+  color: #ffffff;
+}
+.dark h3 {
+  color: #8FD0D6;
+}
+.dark p {
+  color: #ffffff;
+}
+.dark b {
+  color: #ffffff;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.half {
+  background-color: rgba(0, 51, 102, 0.5);
+}
+
+.lines {
+  margin-top: 20px;
+  background-image: url(assets/lines.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+.line1 {
+  height: 225px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.line2 {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin-left: -300px;
+}
+
+.conbox div {
+  display: flex;
+  justify-content: end;
+}
+.conbox div div {
+  background-color: #ffffff;
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conbox div div i {
+  font-size: 50px;
+}
+
+.boxblue {
+  background-color: #003366 !important;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social i {
+  font-size: 50px;
+  color: #ffffff !important;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bluelight a {
+  color: #8FD0D6 !important;
+}
+
+#button {
+  background-color: #8FD0D6;
+  border: solid #003366 5px;
+  border-radius: 25px;
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  color: #003366;
+  box-shadow: 0px 0px 0 0px #8FD0D6;
+  transition: box-shadow 0.5s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+#button:hover {
+  box-shadow: 0px 0px 0 25px rgba(143, 208, 214, 0);
+}
+
+#vid {
+  height: 700px;
+}
+#vid video {
+  z-index: -1;
+  height: 100%;
+  align-self: center;
+}
+#vid h2 {
+  padding: 20px;
+  position: absolute;
+}
+#vid .dark {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#lm {
+  width: 50%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#totop {
+  background-color: rgba(143, 208, 214, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 50px;
+  text-decoration: none;
+}
+#totop i {
+  color: #ffffff;
+  font-size: larger;
+}
+
+@media screen and (min-width: 600px) {
+  .flex {
+    flex-direction: row;
+  }
+  .conbox {
+    align-self: end;
+  }
+  .lm {
+    padding: 20px;
+    padding-top: 40px;
+    order: -1;
+  }
+  #lm {
+    width: 200px;
+  }
+  #combine {
+    background-image: url(assets/combineline.svg);
+    background-size: 650px;
+    background-position-x: calc(50% - 50px);
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+  }
+  .line2 {
+    opacity: 0%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .pad {
+    padding: 40px;
+  }
+  #vid h2 {
+    padding: 40px;
+  }
+  #vid {
+    height: 937px;
+  }
+  .marrig {
+    margin-left: 10%;
+  }
+  .marlef {
+    margin-right: 10%;
+  }
+  .marbot {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  p {
+    font-size: larger;
+  }
+  h2 {
+    font-size: xxx-large;
+  }
+  h3 {
+    font-size: xx-large;
+  }
+  .logo {
+    margin-bottom: -130px;
+    width: calc(100% - 80px);
+  }
+  #combine {
+    background-position-y: -40px;
+  }
+  .conbox div div {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media screen and (min-width: 1680px) {
+  #vid video {
+    height: auto;
+    width: 100%;
+  }
+}/*# sourceMappingURL=LIFAone.css.map */
