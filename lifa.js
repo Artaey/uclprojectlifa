@@ -1,7 +1,7 @@
 let button = document.getElementById("button");
 let topswoosh = document.getElementById("totop");
 
-setTimeout(first, "2000");
+setTimeout(first, "000");
 topswoosh.style.opacity = "0";
 topswoosh.style.pointerEvents = "none"
 
@@ -21,13 +21,13 @@ function totop(){
 }
 
 function first(){
-    button.style.transform = "rotate(7deg)";
-    setTimeout(second, "100");
+    button.style.transform = "rotate(14deg)";
+    setTimeout(second, "200");
 }
 
 function second(){
     button.style.transform = "rotate(-7deg)";
-    setTimeout(reset, "100");
+    setTimeout(reset, "400");
 }
 
 function reset(){
