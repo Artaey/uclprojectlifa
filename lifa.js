@@ -1,7 +1,7 @@
 let button = document.getElementById("button");
 let topswoosh = document.getElementById("totop");
 
-setTimeout(first, "000");
+setTimeout(first, "0");
 topswoosh.style.opacity = "0";
 topswoosh.style.pointerEvents = "none"
 
