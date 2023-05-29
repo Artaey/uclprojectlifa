@@ -13,8 +13,8 @@ $vidhigh: 700px;
 }
 
 p{
-    font-size: large;
-    padding: $pad;
+    font-size: medium;
+    padding: 15px;
 }
 
 h2{
@@ -244,7 +244,7 @@ h3{
 
 @media screen and (min-width: 1000px) {
     .pad{
-        padding: calc($pad * 2);
+        padding: calc(15 * 2);
     }
     
     #vid{
@@ -271,7 +271,7 @@ h3{
     }
 
     p{
-        font-size: larger;
+        font-size: large;
     }
 
     h2{

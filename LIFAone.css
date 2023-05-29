@@ -5,8 +5,8 @@
 }
 
 p {
-  font-size: large;
-  padding: 20px;
+  font-size: medium;
+  padding: 15px;
 }
 
 h2 {
@@ -219,7 +219,7 @@ h3 {
 }
 @media screen and (min-width: 1000px) {
   .pad {
-    padding: 40px;
+    padding: 30;
   }
   #vid h2 {
     padding: 40px;
@@ -238,7 +238,7 @@ h3 {
     margin-right: 10%;
   }
   p {
-    font-size: larger;
+    font-size: large;
   }
   h2 {
     font-size: xxx-large;
