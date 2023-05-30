@@ -30,8 +30,6 @@ h3{
 }
 
 
-
-
 .logo{
     height: 50px;
     width: calc(100% - $pad * 2);
@@ -40,6 +38,10 @@ h3{
     img{
         height: 100%;
     }
+}
+
+.desktop{
+    display: none;
 }
 
 .pad{
@@ -235,7 +237,18 @@ h3{
     }
 }
 
+#button2{
+    background-color: $bluedark;
+    color: $white;
+    text-decoration: none;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+}
+
 @media screen and (min-width: 650px) {
+
     .flex{
         flex-direction: row;
     }
@@ -248,6 +261,10 @@ h3{
         padding: $pad;
         padding-top: calc($pad * 2);
         order: -1;
+    }
+
+    .logo{
+        text-align: left;
     }
 
     #lm{
@@ -272,6 +289,17 @@ h3{
 }
 
 @media screen and (min-width: 1000px) {
+    .mobile{
+        display: none;
+    }
+    
+    .desktop{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
     .pad{
         padding: 30px;
     }
@@ -304,7 +332,7 @@ h3{
     }
 
     h1{
-        font-size: 60px;
+        font-size: 90px;
     }
 
     h2{

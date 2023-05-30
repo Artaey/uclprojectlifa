@@ -31,6 +31,10 @@ h3 {
   height: 100%;
 }
 
+.desktop {
+  display: none;
+}
+
 .pad {
   padding: 20px;
 }
@@ -212,6 +216,16 @@ h3 {
   padding-bottom: 5px;
 }
 
+#button2 {
+  background-color: #003366;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 50px;
+}
+
 @media screen and (min-width: 650px) {
   .flex {
     flex-direction: row;
@@ -223,6 +237,9 @@ h3 {
     padding: 20px;
     padding-top: 40px;
     order: -1;
+  }
+  .logo {
+    text-align: left;
   }
   #lm {
     width: 200px;
@@ -242,6 +259,15 @@ h3 {
   }
 }
 @media screen and (min-width: 1000px) {
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
   .pad {
     padding: 30px;
   }
@@ -265,7 +291,7 @@ h3 {
     font-size: large;
   }
   h1 {
-    font-size: 60px;
+    font-size: 90px;
   }
   h2 {
     font-size: xxx-large;
