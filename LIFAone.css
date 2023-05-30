@@ -230,7 +230,7 @@ h3 {
 }
 @media screen and (min-width: 1000px) {
   .pad {
-    padding: 30;
+    padding: 30px;
   }
   #vid h2 {
     padding: 40px;
