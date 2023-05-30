@@ -29,6 +29,9 @@ h3{
     font-size: x-large;
 }
 
+
+
+
 .logo{
     height: 50px;
     width: calc(100% - $pad * 2);
@@ -172,7 +175,7 @@ h3{
 #vid{
     height: $vidhigh;
 
-    video{
+    #hero{
         z-index: -1;
         height: 100%;
         align-self: center;
@@ -221,10 +224,20 @@ h3{
     }
 }
 
+#yt{
+    display: flex;
+    justify-content: center;
+
+    iframe{
+        aspect-ratio: 1 / 1;
+        max-width: 500px;
+        padding-bottom: 5px;
+    }
+}
+
 @media screen and (min-width: 650px) {
     .flex{
         flex-direction: row;
-        
     }
 
     .conbox{
@@ -251,6 +264,10 @@ h3{
 
     .line2{
         opacity: 0%;
+    }
+
+    #yt{
+        padding: $pad;
     }
 }
 
@@ -320,7 +337,7 @@ h3{
 
 @media screen and (min-width: 1680px) {
     #vid{
-        video{
+        #hero{
             height: auto;
             width: 100%;
         }
