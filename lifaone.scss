@@ -17,6 +17,10 @@ p{
     padding: 15px;
 }
 
+h1{
+    font-size: xxx-large;
+}
+
 h2{
     font-size: xx-large;
 }
@@ -47,8 +51,16 @@ h3{
     padding-top: calc($pad * 2) !important;
 }
 
+.morebot{
+    padding-bottom: calc($pad * 2) !important;
+}
+
 .dark{
     background-color: $bluedark;
+    h1{
+        color: $white;
+    }
+
     h2{
         color: $white;
     }
@@ -166,7 +178,7 @@ h3{
         align-self: center;
     }
 
-    h2{
+    h1{
         padding: $pad;
         position: absolute;
     }
@@ -272,6 +284,10 @@ h3{
 
     p{
         font-size: large;
+    }
+
+    h1{
+        font-size: 60px;
     }
 
     h2{

@@ -9,6 +9,10 @@ p {
   padding: 15px;
 }
 
+h1 {
+  font-size: xxx-large;
+}
+
 h2 {
   font-size: xx-large;
 }
@@ -39,8 +43,15 @@ h3 {
   padding-top: 40px !important;
 }
 
+.morebot {
+  padding-bottom: 40px !important;
+}
+
 .dark {
   background-color: #003366;
+}
+.dark h1 {
+  color: #ffffff;
 }
 .dark h2 {
   color: #ffffff;
@@ -151,7 +162,7 @@ h3 {
   height: 100%;
   align-self: center;
 }
-#vid h2 {
+#vid h1 {
   padding: 20px;
   position: absolute;
 }
@@ -239,6 +250,9 @@ h3 {
   }
   p {
     font-size: large;
+  }
+  h1 {
+    font-size: 60px;
   }
   h2 {
     font-size: xxx-large;
