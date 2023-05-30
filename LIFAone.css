@@ -138,6 +138,12 @@ h3 {
   justify-content: space-between;
 }
 
+.flex2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .bluelight a {
   color: #8FD0D6 !important;
 }
@@ -224,6 +230,7 @@ h3 {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 50px;
+  font-size: x-large;
 }
 
 @media screen and (min-width: 650px) {
@@ -271,6 +278,9 @@ h3 {
   .pad {
     padding: 30px;
   }
+  .flex2 {
+    flex-direction: row-reverse;
+  }
   #vid h2 {
     padding: 40px;
   }
@@ -279,13 +289,15 @@ h3 {
   }
   .marrig {
     margin-left: 10%;
+    max-width: 900px;
   }
   .marlef {
     margin-right: 10%;
+    max-width: 900px;
   }
   .marbot {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
   p {
     font-size: large;
@@ -309,6 +321,10 @@ h3 {
   .conbox div div {
     height: 120px;
     width: 120px;
+  }
+  iframe {
+    width: auto;
+    height: 500px;
   }
 }
 @media screen and (min-width: 1680px) {
