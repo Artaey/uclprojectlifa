@@ -237,6 +237,9 @@ h3 {
   .flex {
     flex-direction: row;
   }
+  .flexrig {
+    justify-content: end;
+  }
   .conbox {
     align-self: end;
   }
@@ -275,11 +278,16 @@ h3 {
     justify-content: space-between;
     align-items: center;
   }
+  .half {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+  }
   .pad {
     padding: 30px;
   }
   .flex2 {
     flex-direction: row-reverse;
+    justify-content: space-around;
   }
   #vid h2 {
     padding: 40px;
@@ -289,11 +297,11 @@ h3 {
   }
   .marrig {
     margin-left: 10%;
-    max-width: 900px;
+    max-width: 650px;
   }
   .marlef {
     margin-right: 10%;
-    max-width: 900px;
+    max-width: 650px;
   }
   .marbot {
     margin-left: 25%;
