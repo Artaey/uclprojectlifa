@@ -310,11 +310,6 @@ h3{
         justify-content: space-between;
         align-items: center;
     }
-
-    .half{
-        padding-left: 10% !important;
-        padding-right: 10% !important;
-    }
     
     .pad{
         padding: 30px;
@@ -323,6 +318,8 @@ h3{
     .flex2{
         flex-direction: row-reverse;
         justify-content: space-around;
+        padding-left: 10% !important;
+        padding-right: 10% !important;
     }
 
     #vid{
@@ -335,19 +332,16 @@ h3{
         height: 937px;
     }
 
+    .max{
+        max-width: 650px;
+    }
+
     .marrig{
         margin-left: 10%;
-        max-width: 650px;
     }
 
     .marlef{
         margin-right: 10%;
-        max-width: 650px;
-    }
-
-    .marbot{
-        margin-left: 25%;
-        margin-right: 25%;
     }
 
     p{
