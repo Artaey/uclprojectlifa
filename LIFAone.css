@@ -217,6 +217,8 @@ h3 {
   justify-content: center;
 }
 #yt iframe {
+  width: 100%;
+  border: 0px;
   aspect-ratio: 1/1;
   max-width: 500px;
   padding-bottom: 5px;
@@ -325,7 +327,7 @@ h3 {
     height: 120px;
     width: 120px;
   }
-  iframe {
+  #yt iframe {
     width: auto;
     height: 500px;
   }
